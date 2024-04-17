@@ -374,5 +374,5 @@ if __name__ == "__main__":
                       scanline_frequency=1.0,  # Determines the frequency of the scanlines for the beam bloom effect, adjusting how often the effect is applied vertically.
                       bloom_intensity=1.2,  # Controls the intensity of the beam bloom effect, higher values increase the glow around bright image areas.
                       gamma=1.1,  # The gamma correction value, lower than 1 darkens the image, and higher than 1 brightens it.
-                      sharp_strength=0.05,
-                      saturation_factor=1.15)  # Multiplier for the sharpening effect strength, higher values produce a stronger sharpening effect.
+                      sharp_strength=0.05, # Multiplier for the sharpening effect strength, higher values produce a stronger sharpening effect.
+                      saturation_factor=1.15) # Saturation control, 1.0 is no saturation applied.
