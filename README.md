@@ -19,6 +19,8 @@ Once that is done, it uses the new av1 (requires the new nvidia gpus) and puts t
 
 If your GPU doesn't support the new av1 encoder, you can change it to use e.g. 265, or just change the quality value in the scanline.py, search for "ffmpeg" and you should find it there.
 
+For reference, on my 7950x3dv, using just 8 cores, it took roughly 8-9 hours for a 1:45 hour long movie at 1080p to be converted. For a video that is 480p, and 20 minutes long, it takes roughly 15-20 minutes for me.
+
 Note: Make sure output folder is empty before starting a video generation.
 
 # Adjust settings?
